@@ -1,12 +1,14 @@
-name: Feature request
-title: "[Feature Request] YOUR_FEATURE_TITLE_HERE_REPLACE_ME"
+name: Özellik isteği
+title: "[Özellik İsteği] ÖZELLİK_BAŞLIĞINIZIN_BURADA_BENİ_DEĞİŞTİRİN"
 labels: [feature request]
 description:  |
-  💡 Suggest an idea for the `NextUI` project
-  Examples
-    - propose a new component
-    - improve an exiting component
-    - ....etc
+  💡 'Fire Ocean - TR Source' projesi için bir fikir önerin
+  Örnekler
+    - yeni bir dokuman önermek
+    - mevcut bir dokuman iyileştirin
+    - yeni bir bileşen önermek
+    - mevcut bir bileşeni iyileştirin
+    - ....vb
 body:
   - type: markdown
     attributes:
