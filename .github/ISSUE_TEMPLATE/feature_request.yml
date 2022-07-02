@@ -7,7 +7,6 @@ description:  |
     - yeni bir dokuman önermek
     - mevcut bir dokuman iyileştirin
     - yeni bir bileşen önermek
-    - mevcut bir bileşeni iyileştirin
     - ....vb
 body:
   - type: markdown
