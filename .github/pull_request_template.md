@@ -1,28 +1,28 @@
 <!---
-Thanks for creating a Pull Request ❤️!
+Bir Pull Request ❤️ oluşturduğunuz için teşekkür ederiz!
 
-Please read the following before submitting:
-- PRs that adds new external dependencies might take a while to review.
-- Keep your PR as small as possible.
-- Limit your PR to one type (docs, feature, refactoring, ci, repo, or bugfix)
+Lütfen göndermeden önce aşağıdakileri okuyun:
+- Yeni dış bağımlılıklar ekleyen PR'lerin gözden geçirilmesi biraz zaman alabilir.
+- Halkla İlişkilerinizi mümkün olduğunca küçük tutun.
+- PR'nizi tek bir türle sınırlayın (belgeler, özellik, yeniden düzenleme, ci, repo veya hata düzeltme)
 -->
 
 Closes # <!-- Github issue # here -->
 
-## 📝 Description
+## 📝 Açıklama
 
-> Add a brief description
+> Kısa bir açıklama ekleyin
 
-## ⛳️ Current behavior (updates)
+## ⛳️ Mevcut davranış (güncellemeler)
 
-> Please describe the current behavior that you are modifying
+> Lütfen değiştirmekte olduğunuz mevcut davranışı açıklayın
 
-## 🚀 New behavior
+## 🚀Yeni davranış
 
-> Please describe the behavior or changes this PR adds
+> Lütfen bu PR'ın eklediği davranışı veya değişiklikleri açıklayın
 
-## 💣 Is this a breaking change (Yes/No):
+## 💣 Bu bir kırılma değişikliği mi (Evet/Hayır):
 
-<!-- If Yes, please describe the impact and migration path for existing NextUI users. -->
+<!-- Evet ise, lütfen mevcut Fire Ocean - TR Source kullanıcıları için etki ve geçiş yolunu açıklayın. -->
 
-## 📝 Additional Information
+## 📝Ek Bilgiler
