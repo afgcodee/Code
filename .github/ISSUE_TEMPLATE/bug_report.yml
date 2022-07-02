@@ -1,83 +1,69 @@
 name: 'Bug report'
-title: "[BUG] - YOUR_ISSUE_TITLE_HERE_REPLACE_ME"
-description: Create a report to help us improve
+title: "[BUG] - BURADAKİ_SORUNUN_BAŞLIĞI_BENİ_DEĞİŞTİR"
+description: Geliştirmemize yardımcı olacak bir rapor oluşturun
 labels: [bug]
 body:
   - type: markdown
     attributes:
       value: |
-        Thank you for reporting an issue :pray:.
+        Bir sorunu bildirdiğiniz için teşekkür ederiz :pray:.
 
-        This issue tracker is for reporting bugs found in [NextUI github repository](https://github.com/nextui-org/nextui/)
-        If you have a question about how to achieve something and are struggling, please post a question
-        inside of either of the following places:
-          - NextUI's [Discussion's tab](https://github.com/nextui-org/nextui/discussions)
-          - NextUI's [Discord channel](https://discord.gg/9b6yyZKmH4)
+        Bu sorun izleyici, [Fire Ocean - TR Source github deposunda](https://github.com/Fire-Oceann/fireocean-s) bulunan hataları bildirmek içindir.
+        Bir şeyi nasıl başaracağınızla ilgili bir sorunuz varsa ve zorlanıyorsanız,
+        lütfen aşağıdaki yerlerden birine bir soru gönderin:
+          - Fire Ocean - TR Source [Discussion's tab](https://github.com/Fire-Oceann/fireocean-s/discussions)
+          - Fire Ocean - TR Source [Discord channel](https://discord.gg/Fire-Oceann/fireocean-s)
 
 
-        Before submitting a new bug/issue, please check the links below to see if there is a solution or question posted there already:
-         - NextUI's [Issue's tab](https://github.com/nextui-org/nextui/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc)
-         - NextUI's [closed issues tab](https://github.com/nextui-org/nextui/issues?q=is%3Aissue+sort%3Aupdated-desc+is%3Aclosed)
-         - NextUI's [Discussions tab](https://github.com/nextui-org/nextui/discussions)
+        Yeni bir hata/sorun göndermeden önce, orada zaten yayınlanmış bir çözüm veya soru olup olmadığını görmek için lütfen aşağıdaki bağlantıları kontrol edin.:
+         - Fire Ocean - TR Source'un [Issue sekmesi](https://github.com/Fire-Oceann/fireocean-s/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc)
+         - Fire Ocean - TR Source'un [kapatılan sorunlar sekmesi tab](https://github.com/Fire-Oceann/fireocean-s/issues?q=is%3Aissue+sort%3Aupdated-desc+is%3Aclosed)
+         - Fire Ocean - TR Source'un [Tartışmalar sekmesi](https://github.com/Fire-Oceann/fireocean-s/discussions)
 
-        The more information you fill in, the better the community can help you.
+        Ne kadar fazla bilgi doldurursanız, topluluk size o kadar iyi yardımcı olabilir.
   - type: textarea
     id: description
     attributes:
-      label: Describe the bug
-      description: Provide a clear and concise description of the challenge you are running into.
+      label: Hatayı açıklayın
+      description: Karşılaştığınız zorluğun net ve kısa bir tanımını yapın.
     validations:
       required: true
-  - type: input
-    id: link
-    attributes:
-      label: Your Example Website or App
-      description: |
-        Which website or app were you using when the bug happened?
-        Note:
-        - Your bug will may get fixed much faster if we can run your code and it doesn't have dependencies other than the `@nextui-org/react` npm package.
-        - To create a shareable code example you can use Stackblitz (https://stackblitz.com/). Please no localhost URLs.
-        - Please read these tips for providing a minimal example: https://stackoverflow.com/help/mcve.
-      placeholder: |
-        e.g. https://stackblitz.com/edit/...... OR Github Repo
-    validations:
-      required: false
   - type: textarea
     id: steps
     attributes:
-      label: Steps to Reproduce the Bug or Issue
-      description: Describe the steps we have to take to reproduce the behavior.
+      label: Hatayı veya Sorunu Yeniden Oluşturma Adımları
+      description: Davranışı yeniden oluşturmak için atmamız gereken adımları açıklayın.
       placeholder: |
-        1. Go to '...'
-        2. Click on '....'
-        3. Scroll down to '....'
-        4. See error
+        1. '...' seçeneğine gidin
+         2. '....' üzerine tıklayın
+         3. '....' seçeneğine ilerleyin
+         4. Hataya bakın
     validations:
       required: true
   - type: textarea
     id: expected
     attributes:
-      label: Expected behavior
-      description: Provide a clear and concise description of what you expected to happen.
+      label: Beklenen davranış
+      description: Ne olmasını beklediğinize dair net ve özlü bir açıklama yapın.
       placeholder: |
-        As a user, I expected ___ behavior but i am seeing ___
+        Bir kullanıcı olarak ___ davranış bekliyordum ama ___ görüyorum
     validations:
       required: true
   - type: textarea
     id: screenshots_or_videos
     attributes:
-      label: Screenshots or Videos
+      label: Ekran Görüntüleri veya Videolar
       description: |
-        If applicable, add screenshots or a video to help explain your problem.
-        For more information on the supported file image/file types and the file size limits, please refer
-        to the following link: https://docs.github.com/en/github/writing-on-github/working-with-advanced-formatting/attaching-files
+        Varsa, sorununuzu açıklamaya yardımcı olması için ekran görüntüleri veya bir video ekleyin.
+        Desteklenen dosya görüntüsü/dosya türleri ve dosya boyutu sınırları hakkında daha fazla bilgi için
+        lütfen aşağıdaki bağlantıya bakın: https://docs.github.com/en/github/writing-on-github/working-with-advanced-formatting/attaching-files
       placeholder: |
-        You can drag your video or image files inside of this editor ↓
+        Video veya resim dosyalarınızı bu düzenleyicinin içine sürükleyebilirsiniz. ↓
   - type: input
     id: os
     attributes:
-      label: Operating System Version
-      description: What operating system are you using?
+      label: İşletim Sistemi Sürümü
+      description: Hangi işletim sistemini kullanıyorsunuz?
       placeholder: |
         - OS: [e.g. macOS, Windows, Linux]
     validations:
@@ -85,14 +71,14 @@ body:
   - type: dropdown
     id: browser_type
     attributes:
-      label: Browser
-      description: Select the browsers where the issue can be reproduced (that you know of).
+      label: Tarayıcı
+      description: Sorunun yeniden oluşturulabileceği (bildiğiniz) tarayıcıları seçin.
       options:
         - "Chrome"
         - "Firefox"
         - "Safari"
         - "Edge"
         - "Opera"
-        - "Other (add additonal context)"
+        - "Diğer (ek bağlam ekleyin)"
     validations:
       required: true
