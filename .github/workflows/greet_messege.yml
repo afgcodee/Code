@@ -12,11 +12,11 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           issue_msg: |
-            Hi, {{author}},
-            Thanks for opening an issue :blue_heart: your issue will be seen by maintainers soon.
-            Contributors :people_holding_hands:  like you make the open source community :earth_africa:  such an amazing place to learn :book: , inspire :angel:, and create :art: .
-             We will investigate :eyes:  and get back to you as soon as possible :+1: . 
-             Just make sure you have given us sufficient information :information_source:.
-             By that time enjoy this joke :point_down: , hope you like it :smile:
+            Merhaba, {{author}},
+            Bir konu açtığınız için teşekkürler :blue_heart: Sorununuz yakında bakımcılar tarafından görülecektir.
+            Katkıda bulunanlar :people_holding_hands:  sizin gibi açık kaynak topluluğunu :earth_africa:  öğrenmek :book: , ilham vermek :angel:, ve :art: oluşturmak için harika bir yer haline getiriyor.
+             Araştıracağız :eyes:  ve en kısa sürede size geri döneceğiz :+1: . 
+             Bize yeterli bilgiyi verdiğinizden emin olun :information_source:.
+             O zamana kadar bu şakanın tadını çıkarın :point_down: , umarım beğenirsiniz :smile:
             
             {{joke}}
