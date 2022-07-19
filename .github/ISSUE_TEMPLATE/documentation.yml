@@ -1,39 +1,39 @@
-name: 📚 Documentation
-description: Report an issue related to documentation
+name: 📚 Dokümantasyon
+description: Belgelerle ilgili bir sorunu bildirin
 labels: [documentation]
 body:
   - type: markdown
     attributes:
       value: |
-        This template is strictly used for documentation requests, including:
+        Bu şablon, aşağıdakiler de dahil olmak üzere, kesinlikle belge talepleri için kullanılır:
 
-        - Documenting undocumented APIs;
-        - Elaborating on a particular topic;
-        - Updating external links;
-        - anything else that doesn't require touching the codebase itself.
+        - Belgelenmemiş API'lerin belgelenmesi;
+        - Belirli bir konu üzerinde detaylandırma;
+        - Harici linklerin güncellenmesi;
+        - kod tabanının kendisine dokunmayı gerektirmeyen herhangi bir şey.
 
-        If you followed the documentation but things don't work, take some time to consider if it's the documentation or the code that's wrong. In the latter, prefer using the "bug" template.
+        Belgeleri izlediyseniz ancak işler yolunda gitmiyorsa, hatalı olanın belge mi yoksa kod mu olduğunu düşünmek için biraz zaman ayırın. İkincisinde, "hata" şablonunu kullanmayı tercih edin.
 
-        We seldom close documentation pull requests unmerged. If your documentation request is:
+        Birleştirilmemiş belge çekme isteklerini nadiren kapatırız. Belge talebiniz ise:
 
-        - Relevant to a significant proportion of Docusaurus users;
-        - Not about external tooling (e.g. deployment workflow. We have a "deployment" section but we have decided to keep it mostly as-is);
-        - Not documented elsewhere (or, if it is documented, the mention is in very undiscoverable places).
+        - Docusaurus kullanıcılarının önemli bir kısmı ile ilgili;
+        - Harici araçlarla ilgili değil (örneğin, dağıtım iş akışı. Bir "dağıtım" bölümümüz var ama bunu çoğunlukla olduğu gibi tutmaya karar verdik);
+        - Başka bir yerde belgelenmemiş (veya belgelenmişse, söz konusu çok keşfedilemez yerlerde).
 
-        You may proceed directly to sending a pull request without filing this issue, and we can improve on your work.
-        If you think some of the requirements above are not met, or if you are not able to contribute yourself, the issue is still welcomed.
+        Bu sorunu bildirmeden doğrudan bir çekme isteği göndermeye devam edebilirsiniz ve çalışmanızı iyileştirebiliriz.
+        Yukarıdaki gereksinimlerin bazılarının karşılanmadığını düşünüyorsanız veya kendiniz katkıda bulunamıyorsanız, sorun yine de memnuniyetle karşılanır.
 
   - type: checkboxes
     attributes:
-      label: Have you read the Contributing Guidelines on issues?
+      label: Sorunlarla ilgili Katkıda Bulunan Yönergeleri okudunuz mu?
       options:
-        - label: I have read the [Contributing Guidelines on issues](https://github.com/facebook/docusaurus/blob/main/CONTRIBUTING.md#reporting-new-issues).
+        - label: [Sorunlarla ilgili Katkıda Bulunan Yönergeleri](https://github.com) okudum.
           required: true
 
   - type: textarea
     attributes:
-      label: Description
-      description: A clear and concise description of what the issue is.
+      label: Açıklama
+      description: Sorunun ne olduğuna dair net ve özlü bir açıklama.
     validations:
       required: true
 
@@ -41,7 +41,7 @@ body:
     attributes:
       label: Self-service
       description: |
-        If you feel like you could contribute to this issue, please check the box below. This would tell us and other people looking for contributions that someone's working on it.
-        If you do check this box, please send a pull request within 7 days so we can still delegate this to someone else.
+        Bu soruna katkıda bulunabileceğinizi düşünüyorsanız, lütfen aşağıdaki kutuyu işaretleyin. Bu bize ve katkı arayan diğer kişilere birinin üzerinde çalıştığını söyler.
+         Bu kutuyu işaretlerseniz, lütfen 7 gün içinde bir çekme isteği gönderin, böylece bunu başka birine devredebiliriz.
       options:
-        - label: I'd be willing to address this documentation request myself.
+        - label: Bu belge talebini kendim ele almaya hazırım.
