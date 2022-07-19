@@ -1,4 +1,4 @@
-name: 'Hata raporu'
+name: '🐛 Hata raporu'
 title: "[BUG] - BURADAKİ_SORUNUN_BAŞLIĞI_BENİ_DEĞİŞTİR"
 description: Geliştirmemize yardımcı olacak bir rapor oluşturun
 labels: [bug]
